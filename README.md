@@ -1,16 +1,5 @@
-﻿ ██████╗ ███████╗██╗   ██╗    ██████╗ ███████╗██╗   ██╗
-██╔════╝ ██╔════╝██║   ██║    ██╔══██╗██╔════╝██║   ██║
-██║  ███╗███████╗██║   ██║    ██║  ██║█████╗  ██║   ██║
-██║   ██║╚════██║██║   ██║    ██║  ██║██╔══╝  ╚██╗ ██╔╝
-╚██████╔╝███████║╚██████╔╝    ██████╔╝███████╗ ╚████╔╝
- ╚═════╝ ╚══════╝ ╚═════╝     ╚═════╝ ╚══════╝  ╚═══╝
-                  ██╗  ██╗██╗████████╗
-                  ██║ ██╔╝██║╚══██╔══╝
-                  █████╔╝ ██║   ██║
-                  ██╔═██╗ ██║   ██║
-                  ██║  ██╗██║   ██║
-                  ╚═╝  ╚═╝╚═╝   ╚═╝
-   by DiscoTheBat                 Version 1.98
+		GSU DEV KIT
+   by DiscoMan                 Version 1.98
 
 The new way of doing hacking, the GSU Dev Kit enables
 Super FX on your Super Mario World ROM.
@@ -19,9 +8,9 @@ best way possible.
 With minor modifications, you can use this kit in a
 homebrew even!
 
-;===================================================;
-; Features                                          ;
-;===================================================;
+-----------------------------------------------------
+Features
+-----------------------------------------------------
 
  - It features Super FX's CPU core with 21.47 MHz speed,
 which is eight times faster than SNES. Super FX can run
@@ -41,9 +30,9 @@ Also, it allows for 1 cycle opcode execution.
  - High speed arithmetic support, it even surpasses DSP-1 when it comes to
 SNES to CPU (and vice versa) communication.
  
-;===================================================;
-; Changes                                           ;
-;===================================================;
+-----------------------------------------------------
+Changes
+-----------------------------------------------------
 
 When patched, the following changes will take effect:
 
@@ -59,9 +48,9 @@ As one can see, those changes RAM to match even addresses, improving Super FX's
 operations. (The changed RAM Map is presented down at this Readme, be sure to access
 in order to understand Super FX's new mappings!)
 
-;===================================================;
-; Warnings                                          ;
-;===================================================;
+-----------------------------------------------------
+Warnings
+-----------------------------------------------------
 
 GSU Dev Kit is probably the most highly advanced and complex
 patch in existence, the reason why is because that most routines
@@ -94,9 +83,9 @@ One using Higan or schematics to modify cartridges can implement those extra fea
 overcoming the 2MB limit. Why Nintendo didn't do that? Stop making games way expensive, nowadays with hacking and knowledge, one can extend
 the capabilities of the poor underrated Super FX chip and ROM/Flash chips are pretty cheaper.
 
-;===================================================;
-; Usage                                             ;
-;===================================================;
+-----------------------------------------------------
+Usage
+-----------------------------------------------------
 
 Super FX can be quite troubling when dealing with it,
 mostly due to size limitations and harder ASM language
@@ -112,9 +101,9 @@ it in any emulator to test.
 If you did everything right, Snes9X/ZSNES will respectively
 display ROM+RAM+SRAM+Super FX or Type: Super FX
 
-;===================================================;
-; F.A.Q                                             ;
-;===================================================;
+-----------------------------------------------------
+F.A.Q
+-----------------------------------------------------
 
  Q: Is it really hard to work with Super FX?
 
@@ -146,9 +135,9 @@ to easily pinpoint where the ASM will be placed without anything breaking! You c
 and recreate it's own version using Super FX ASM without much worry! This is how you can easily
 turn your works compatible with Super FX!
 
-;===================================================;
-; Programming                                       ;
-;===================================================;
+-----------------------------------------------------
+Programming
+-----------------------------------------------------
 
 Unlike Super FX Pack, this development kit is way more complex
 because of the various RAM remapping and several routines converted
@@ -253,9 +242,9 @@ know exactly what you are doing!
 Super FX Tutorial: http://www.smwcentral.net/?p=viewthread&t=81548
 -----------------------------------------------------
 
-;===================================================;
-; Credits                                           ;
-;===================================================;
+-----------------------------------------------------
+Credits
+-----------------------------------------------------
 
 Without these people, it would have been impossible for the GSU Dev Kit 
 to be created perfectly:
@@ -265,4 +254,3 @@ to be created perfectly:
  - anonimzwx
  - K3fka
  - Vitor Vilela
- - DiscoTheBat
