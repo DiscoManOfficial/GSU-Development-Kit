@@ -154,6 +154,7 @@ Store the 16-bit address to Accumulator (A) and the
 8-bit bank on Index Y (Y), after that just JSR (or JMP)
 to $1E80, i.e.:
 
+```
 REP #$20
 LDY.b #Label>>16		;\ Put address in the proper place...
 LDA.w #Label			;/
@@ -166,6 +167,7 @@ Label:
 [...]					; Code goes here
 STOP					; Finish processing data.
 arch 65816				; Return to SNES ASM mode
+```
 
 When you switch to Super FX side, things works way differently:
 
@@ -206,6 +208,7 @@ read from an APU port, but logically, it can't access it. To make it accessible,
 stop processing on Super FX, then call the the SNES so you can read from the APU
 port and then send the value to Super FX. See below:
 
+```
 [...]
 STOP			; I need APU ports, can't access, temporarily halt processing
 NOP				; Prefetch dummy but don't execute it
@@ -221,6 +224,7 @@ STA $3004				; |
 LDA $2143				; |
 STA $3006				; /
 JSR $1Exx				;<> Continue Super FX routine...
+```
 
 Using this method you can get rid of almost all Super FX
 limitations, but remember SNES have a slow CPU,
