@@ -1,4 +1,5 @@
-		GSU DEV KIT
+GSU DEV KIT
+-----------------------------------------------------
    by DiscoMan                 Version 1.98
 
 The new way of doing hacking, the GSU Dev Kit enables
@@ -8,7 +9,6 @@ best way possible.
 With minor modifications, you can use this kit in a
 homebrew even!
 
------------------------------------------------------
 Features
 -----------------------------------------------------
 
@@ -30,7 +30,6 @@ Also, it allows for 1 cycle opcode execution.
  - High speed arithmetic support, it even surpasses DSP-1 when it comes to
 SNES to CPU (and vice versa) communication.
  
------------------------------------------------------
 Changes
 -----------------------------------------------------
 
@@ -48,7 +47,6 @@ As one can see, those changes RAM to match even addresses, improving Super FX's
 operations. (The changed RAM Map is presented down at this Readme, be sure to access
 in order to understand Super FX's new mappings!)
 
------------------------------------------------------
 Warnings
 -----------------------------------------------------
 
@@ -83,7 +81,6 @@ One using Higan or schematics to modify cartridges can implement those extra fea
 overcoming the 2MB limit. Why Nintendo didn't do that? Stop making games way expensive, nowadays with hacking and knowledge, one can extend
 the capabilities of the poor underrated Super FX chip and ROM/Flash chips are pretty cheaper.
 
------------------------------------------------------
 Usage
 -----------------------------------------------------
 
@@ -101,7 +98,6 @@ it in any emulator to test.
 If you did everything right, Snes9X/ZSNES will respectively
 display ROM+RAM+SRAM+Super FX or Type: Super FX
 
------------------------------------------------------
 F.A.Q
 -----------------------------------------------------
 
@@ -135,7 +131,6 @@ to easily pinpoint where the ASM will be placed without anything breaking! You c
 and recreate it's own version using Super FX ASM without much worry! This is how you can easily
 turn your works compatible with Super FX!
 
------------------------------------------------------
 Programming
 -----------------------------------------------------
 
@@ -238,11 +233,9 @@ where Super FX is halted, therefore you can easily break any operations Super FX
 may be doing at the time, using RON/RAN method it's risky and only advisable if you
 know exactly what you are doing!
 
------------------------------------------------------
 Super FX Tutorial: http://www.smwcentral.net/?p=viewthread&t=81548
 -----------------------------------------------------
 
------------------------------------------------------
 Credits
 -----------------------------------------------------
 
